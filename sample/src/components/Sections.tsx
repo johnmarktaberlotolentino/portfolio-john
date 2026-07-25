@@ -21,7 +21,7 @@ export function Hero() {
 
   return (
     <section id="about" className="section-padding min-h-screen flex flex-col justify-center relative overflow-hidden bg-mesh">
-      <div className="absolute inset-0 bg-[url('https://grainy-gradients.vercel.app/noise.svg')] opacity-20 pointer-events-none"></div>
+      <div className="absolute inset-0 opacity-20 pointer-events-none" style={{ backgroundImage: "url('/noise.svg')" }}></div>
 
       <div className="max-w-6xl relative z-10">
         <motion.div
